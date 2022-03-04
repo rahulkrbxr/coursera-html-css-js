@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#chicken, #beef, #sushi {
+    width: 40%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    border: 1px solid black;
+}
+
+#chicken {
+    background-color: lightpink;
+}
+
+#beef {
+    background-color: red;
+}
+
+#sushi {
+    background-color: yellow;
+}
+
+div > p {
+    clear: right;
+    width: 90%;
+    height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+
+.chicken, .beef, .sushi {
+    background-color: gray;
+    border: 1px solid black;
+}
+
+
+/****** Simple responsive ******/
+.container {
+    width: 100%;
+}
+
+/****** Desktop viewing ******/
+@media (min-width: 992px) {
+    .chicken, .beef, .sushi {
+        width: 33%;
+        float: left;
+    }
+}
+
+/****** Tablet viewing ******/
+@media (min-width: 768px) and (max-width: 991px) {
+    .chicken, .beef {
+        width: 50%;
+        float: left;
+        
+    }
+    
+    .sushi {
+        clear: right;
+    }
+}
+
+/****** Mobile viewing ******/
+@media (max-width: 767px) {
+    .chicken, .beef, .sushi {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px; 
+    }   
+}
