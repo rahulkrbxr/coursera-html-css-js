@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Hubballi', cursive;
+    background-color: rgb(159, 169, 169);
 }
 
 h1 {
@@ -46,6 +47,7 @@ section.java>h2 {
 
 section>p {
     padding: 40px 15px 15px 15px;
+    font-size: 22px
 }
 
 .row {
