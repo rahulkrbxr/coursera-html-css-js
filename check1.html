@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Style</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <table width="50%">
+        <caption>Weekly Timetable</caption>
+        <colgroup>
+            <col span="2" style="background-color: rgb(160, 65, 147);">
+        </colgroup>
+        <tr>
+            <th></th>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>9:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>10:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>11:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>12:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>1:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th colspan="6" style="height:28px">Break</th>
+        </tr>
+        <tr>
+            <th>7:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th colspan="6" style="height:28px">Break</th>
+        </tr>
+        <tr>
+            <th>11:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>12:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <style>
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th {
+            width: 60px;
+            text-align: center;
+        }
+        /* td:nth-child(even) {
+            background-color: #d6eeee
+        } */
+        tr:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+        th:nth-child(even), td:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+        /* tr {
+            border-bottom: 1px solid #ddd;
+        } */
+        tr:hover {
+            background-color: #3ed8be;
+        }
+        td:hover {
+            background-color: rgb(200, 74, 74);
+        }
+    </style>
+</body>
+</html>
